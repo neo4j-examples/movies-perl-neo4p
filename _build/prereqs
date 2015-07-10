@@ -1,0 +1,18 @@
+do{ my $x = {
+       'build_requires' => {
+                             'Try::Tiny' => 0,
+                             'Test::More' => 0,
+                             'Module::Build' => 0,
+                             'List::MoreUtils' => 0,
+                             'Test::Mojo' => 0
+                           },
+       'conflicts' => {},
+       'requires' => {
+                       'Try::Tiny' => 0,
+                       'JSON' => '2',
+                       'REST::Neo4p' => '0.3004',
+                       'Mojolicious' => '5.0'
+                     },
+       'recommends' => {}
+     };
+$x; }
